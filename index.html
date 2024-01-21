@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png"
+    />
+  </head>
+  <body>
+    <center>
+    <ul id="Navbar">
+      <li class="first" id="navbar-item"><a  href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwhqZsr5q4Dz-ecvcVg_9WzU0VsmEw6l6pYYaq9RdWKw&s" height="20px" width="18
+      px"
+        ></a></li>
+      <li id="navbar-item"><a href="founder.html">About The Founders</a></li>
+      <li id="navbar-item"><a href="xbox.html">Xbox</a></li>
+      <li id="navbar-item"><a href="products.html">Products</a></li>
+ 
+
+    </ul>
+  </center>
+    <h2>About Microsoft</h2>
+    <p> <center>
+        Microsoft Corporation is an American multinational technology
+        corporation <br />
+        headquartered in Redmond, Washington. Microsoft's best-known software
+        products are the Windows <br />
+        line of operating systems, the Microsoft 365 suite of productivity
+        applications, and the Edge web browser
+    <p>  </center>
+    
+
+ <center>
+    <div class="slideshow-container">
+      <!-- Slides -->
+      <div class="mySlides">
+        <img
+          src="https://i.pcmag.com/imagery/articles/072P10DdUKKYYMKUWbFPDPN-1..v1599833507.jpg"
+        />
+      </div>
+
+      <div class="mySlides">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Blade001_Area_Heading-VP5_Desktop_1920x720?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&qlt=75&fit=constrain"
+        />
+      </div>
+
+      <div class="mySlides">
+        <img
+          src="https://assets.xboxservices.com/assets/36/e3/36e335da-9137-41ca-b8ec-f0847a0e53a6.jpg?n=Console-NewGames-5Blades-FullBleed.jpg"
+        />
+      </div>
+
+      <!-- Navigation dots -->
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </center>
+
+    <script>
+      // JavaScript for slideshow functionality
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        slideIndex++;
+
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+
+        setTimeout(showSlides, 3500); // Change slide every 2 seconds (adjust as needed)
+      }
+    </script>
+
+
+
+  </body>
+</html>

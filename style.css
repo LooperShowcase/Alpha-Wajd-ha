@@ -1,0 +1,366 @@
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px; /* Optional: Add some space between the image and the heading */
+}
+
+h1 {
+  font-family: "Your Chosen Heading Font", sans-serif;
+  /* Replace 'Your Chosen Heading Font' with the font for your headings.
+       'sans-serif' is a generic font family in case the specific font is not available. */
+}
+
+#li {
+  font-family: "Your Chosen Heading Font", sans-serif;
+  /* Replace 'Your Chosen Heading Font' with the font for your headings.
+       'sans-serif' is a generic font family in case the specific font is not available. */
+}
+
+/* Style for the slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+}
+
+/* Style for the slides */
+.mySlides {
+  display: none;
+}
+
+/* Style for the navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 0%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #717171;
+}
+
+a {
+  font-family: "Your Chosen Heading Font", sans-serif;
+  /* Replace 'Your Chosen Heading Font' with the font for your headings.
+       'sans-serif' is a generic font family in case the specific font is not available. */
+}
+
+h2 {
+  font-family: "Your Chosen Heading Font", sans-serif;
+  /* Replace 'Your Chosen Heading Font' with the font for your headings.
+       'sans-serif' is a generic font family in case the specific font is not available. */
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style for table headers */
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for alternate row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style for table headers and cells */
+th,
+td {
+  padding: 12px;
+  text-align: center; /* Center the text */
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for alternate row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style for table headers and cells */
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px; /* Set the font size to 16 pixels or your preferred size */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for alternate row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  text-align: center;
+  left: 50%;
+}
+
+h2 {
+  text-align: center;
+  left: 50%;
+}
+
+.slideshow-container {
+  width: 100%;
+}
+
+.slideshow-container img {
+  width: 100%;
+}
+
+.mySlides {
+  width: 70vw;
+}
+
+#Navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#navbar-item {
+  float: left;
+}
+
+.first {
+  margin-left: 30%;
+}
+#navbar-item a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar-item a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Your Chosen Heading Font", sans-serif;
+  /* Replace 'Your Chosen Heading Font' with the font for your headings.
+       'sans-serif' is a generic font family in case the specific font is not available. */
+}
+
+#navbar {
+  align-self: center;
+}
+
+#navbar-item {
+  align-self: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 50%;
+}
+
+#container {
+  text-align: center; /* Optional: Align the container's content */
+}
+
+#thing,
+#thing2 {
+  display: inline-block;
+  width: 70px; /* Adjust the width as needed */
+  height: 70px; /* Adjust the height as needed */
+
+  margin: 3px; /* Optional: Add margin for spacing */
+}
+
+#thing {
+  width: fit-content;
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+ul
+{
+  text-align: center;
+  font: bold;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.mySlides
+{
+  align-self: center;
+}
+
+ul {
+  font-family: "Your Chosen Heading Font", sans-serif;
+}
+
+.slideshow-container {
+  margin: auto;
+  max-width: fit-content;
+
+}
+
+li {
+  font-size: 20px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Optional: Add some spacing between list items */
+}
+
+
